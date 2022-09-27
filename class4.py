@@ -21,12 +21,14 @@
 # #list() : 리스트형 함수
 # #tuple() : 튜플형 함수
 #                             #계정생성 프로그램
-# id = input("아이디를 입력하시요 : ")
-# pw = input("pw를 입력 하시요")
-# print(f"ID:{id} / PW:{pw}")
+id = input("아이디를 입력하시요 : ")
+pw = input("pw를 입력 하시요")
+print(f"ID:{id} / PW:{pw}")
 
-
-# print(f"ID:{id} / PW:{pw}")
+print(len(pw))
+print(f"ID:{id} / PW:{pw}")
+#len()   #길이(갯수)를 반환해 주는 함수
+#[숙제]
 
 
 # ### 문자열
@@ -56,3 +58,5 @@
 text = "\t\"There is no one \nwho loves pain itself, \nwho seeks after it \nand wants to have it, \nsimply because it is pain...\""
 
 print(text)
+
+#\n  문자열 안에서 줄 바꿈
