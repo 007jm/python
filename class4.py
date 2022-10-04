@@ -29,7 +29,7 @@ print(len(pw))
 print(f"ID:{id} / PW:{pw}")
 #len()   #길이(갯수)를 반환해 주는 함수
 #[숙제]
-
+print(len(pw) * ("*"))    # 해결
 
 # ### 문자열
 
