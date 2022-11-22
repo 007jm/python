@@ -56,3 +56,13 @@ for l in range(j,k+1):
     print(l)
 
 
+##1~100까지 3의 배수출력
+
+count = 0
+for i in range (3,101,3):
+    print(i, end=" ")
+    count += 1
+    if count == 10:
+        count=0
+        print()
+        
