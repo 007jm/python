@@ -59,10 +59,26 @@
 
 
 ###명함
-def namecard(*argm):
-    print("===============")
-    for i in argm:
-        print(i)
-    print("===============")       ##딕셔너리쓸때 개수가 정해져있지 않을때 **argm
+# def namecard(*argm):
+#     print("===============")
+#     for i in argm:
+#         print(i)
+#     print("===============")       ##딕셔너리쓸때 개수가 정해져있지 않을때 **argm
     
-namecard("재명","010-****-****","myungwith")
+# namecard("재명","010-****-****","myungwith")
+
+
+# def tri(b,h):
+#     area=b*h*0.5
+#     return area
+
+# def rect(b,h):
+#     area = b*h
+#     return area
+
+# def circle(r):
+#     area=r*r*3.14
+#     return area
+
+# order = input("어떤 도형의 넓이를 구하시겠습니까? : ")
+# if
